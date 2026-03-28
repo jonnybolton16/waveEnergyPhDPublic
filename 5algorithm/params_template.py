@@ -1,5 +1,3 @@
-import sys
-sys.path.append('../..') # need to access main.py's directory
 import main
 
 class params:
