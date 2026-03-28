@@ -130,7 +130,6 @@ def main(params):
     if buoy:
         V_R0 = fd.FunctionSpace(mesh, 'R', 0)
         V_mixed = V_CGN*V_R0
-        V_DG0 = fd.FunctionSpace(mesh, 'DG', 0)
         v1, v2 = fd.TestFunctions(V_mixed)
     
     # water rest-depth

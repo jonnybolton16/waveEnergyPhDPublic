@@ -17,8 +17,8 @@ class params:
     buoy = True # if False, no buoy is modeled
     M = 0.1
     alpha = 0.6418818298648808
-    # calculated using atan(3*M*tan(radians(theta))/rho0/(Ly-Lb)**3), with
-    # Lb = 1.8996831214658347 (from mesh coordinates)
+    # calculated using atan(3*M*tan(radians(theta))/rho0/(Ly-Lb)**3)
+    # with Lb = 1.8996831214658347 (from mesh coordinates)
     
     # generator
     m = 0.1
